@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
 
@@ -30,7 +28,7 @@ export class Home extends Component {
                         </p>
                         <p>
                         I am recent transplant to Florida with my family. We came for the weather and Disney. 
-                        As cliche as that sounds it's true! In my heart I am always from Massachusettes.
+                        As cliche as that sounds its true! In my heart I am always from Massachusettes.
                         </p>
                     </div>
          
