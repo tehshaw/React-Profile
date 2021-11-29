@@ -5,10 +5,12 @@ import Col from 'react-bootstrap/Col'
 
 import NavBar from './NavBar'
 
+import styles from '../styles/Layout.module.css'
+
 export default function Layout({children}) {
     return (
         <div className="mb-2">
-                <Container fluid>
+                <Container fluid className={styles.navColor}>
                     <Row className="justify-content-between align-items-center">
                         <Col xs={12} md={4} lg={3} className="text-center">
                             <h1>
@@ -22,7 +24,7 @@ export default function Layout({children}) {
                     </Row>
 
                 </Container>
-        <main>
+        <main className={styles.picture}>
         <Container className="w-50">
             <Row 
 

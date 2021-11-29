@@ -1,0 +1,13 @@
+.picture{
+    background-image: url("../public/pexels-michał-osiński-3454270.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: "100vh";
+    
+}
+
+.navColor{
+    padding: 0.5em;
+    background-color: whitesmoke;
+}
